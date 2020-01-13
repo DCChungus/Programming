@@ -1,0 +1,42 @@
+- Find blue container
+- Once centered to blue container, rotate x degrees to travel diagonally to it for y seconds, HC
+- 90 degrees left 
+- adjust position to be on blue container 
+- once aliged lower claw, drive until sensor distance triggeres 
+- close claw
+- reverse x seconds HC
+- move forwards until swining left to right until contact with black line is made
+- follow line till sensor d 1 triggered
+- reverse 0.5 seconds low speed,
+- rotate 90 degrees left 
+- locate orange 
+- move forward until x cm away
+- lower back claw, drop blue container behind 
+- pick up orange
+- raise arm high af
+- drive forward until left side sensor triggered
+- swipe 3 x
+- place orange ball if no bot guy detected else lower claw and swipe again 
+- place orange ball 
+- reverse
+
+
+
+
+state:
+back scoop starts raised up, arm starts forward, bot places facing blue container (diagonal) 
+
+
+
+
+Sensors + servos needed:
+
+
+
+Sensors:
+1 x light sensor (back) a
+1x touch sensor (front) d
+1 x camera (side) usb 
+1 x line sensor (bottom) a2 
+1 x distance sensor (digital/ analog) on claw 
+
